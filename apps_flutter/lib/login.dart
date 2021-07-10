@@ -29,12 +29,20 @@ class LoginPage extends StatelessWidget {
                 children: [
                   TextFormField(
                     decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.black, width: 2.0),
+                      ),
                       hintText: "Enter Email Here",
                       labelText: "EMAIL ID",
                     ),
                   ),
                   TextFormField(
                     decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide:
+                            const BorderSide(color: Colors.black, width: 2.0),
+                      ),
                       hintText: "Enter Password",
                       labelText: "PASSWORD",
                     ),
