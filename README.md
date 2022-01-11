@@ -1,2 +1,3 @@
 # Pika-s-Cafe
-This is the project, I made while learning FLUTTER.
+This project is in process to learn more about the framework FLUTTER.
+An online fast food ordering application.
